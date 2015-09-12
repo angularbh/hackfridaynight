@@ -2,9 +2,13 @@
 
 import {Component, View, bootstrap} from 'angular2/angular2';
 
+
 import {HTTP_BINDINGS} from 'http/http';
 
 import {Friendship} from './friendship';
+
+import { LoginController  } from './login';
+
 
 @Component({
     selector: 'hackfridaynight-app',
@@ -13,7 +17,8 @@ import {Friendship} from './friendship';
 })
 @View({
     templateUrl: 'hackfridaynight.html',
-    directives: [Friendship]
+    directives: [LoginController, Friendship]
+
 })
 class HackfridaynightApp {
     constructor() {

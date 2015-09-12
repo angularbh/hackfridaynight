@@ -13,6 +13,6 @@ import {Http} from 'http/http';
 })
 export class Friendship {
     constructor(public http: Http) {
-    	console.log(this.http)
+    	
     }
 }
