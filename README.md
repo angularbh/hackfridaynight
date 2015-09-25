@@ -1,5 +1,6 @@
 # hackfridaynight
-hackthon 
+
+Angular 2 Hackathon
 
 '/users/?q=query' - GET - List of all users or search by name using query
 '/users/' - POST - Create user
